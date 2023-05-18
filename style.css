@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto',sans-serif;
+  transition: all 2s;
+  background: bottom center/cover no-repeat;
+  min-height: 100vh;
+}
+
+.home {
+  background-image: url(./images/mountains-universe-1.png);
+  transition: 2s;
+}
+
+.universe {
+  background-image: url(./images/mountains-universe02.png);
+  transition: 2s;
+}
+
+.exploration {
+  background-image: url(./images/mountains-universe-3.png);
+  transition: 2s;
+}
+nav {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  padding: 4rem 7.2rem;
+}
+
+nav a {
+  transition: all 0.5s ease;
+}
+
+ a {
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.1rem;
+  line-height: 2.2rem;
+
+  color: #C4C4CC;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 12.6rem;
+}
+
+.section-two {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center; */
+
+  padding: 6.3rem 0 0 10.2rem;
+}
+
+.section-three {
+  padding: 6.3rem 0 0 10.2rem;
+}
+
+h1 {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  color: #E1E1E6;
+}
+
+p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+
+  margin-top: 1.6rem;
+  width: 64.8rem;
+  text-align: initial;
+
+  color: #E1E1E6;
+}
+
+.button {
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 1.2rem 3.2rem;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 400ms 100ms;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  color: #02799D;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+.initial {
+  margin-bottom: 2.4rem;
+}
+
+.click {
+  font-weight: 700;
+  font-size: 2.4rem;
+
+  color: #ffffff;
+}
